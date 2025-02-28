@@ -11,7 +11,7 @@ public class app3 {
         System.out.println("donner le nombre de colonne");
         nc =sc.nextInt();
     }
-    while(nl < 20 || nc>30 );
+    while(nl < 20 && nc>30 );
     for (i=0; i<nl;i++){
         for (j=0; j<nc; j++){
             System.out.println("remplir M[" + i + "," +j+ "]=");
@@ -31,7 +31,7 @@ public class app3 {
         }
         if(sommin > somme){
             sommin=somme;
-    }
+        }
     }
     System.out.println("la somme = " + somme);
     for (i=0;i<nl;i++){
